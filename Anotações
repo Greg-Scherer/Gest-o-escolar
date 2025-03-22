@@ -4,18 +4,15 @@ O sistema sera em aplicativo (desktop).
 
 Funcionais;
 
-O login do aluno só sera liberado após algum responsavel da escola o matricular no sistema. Assim gerando um Email; " nomedoaluno@aluno**.*** "
-
 * Após fazer login o usuario deve completar um captcha apenas para uma verificação basica, para evitar um ataque DDOS
 
-Fazer o portal do estudante e professores (Na hora de login sera possivel a escolha entre "aluno ou professor")
 O sistema do professor sera dividido em partes como:
-
-* Chamada (para frequencia, o professor podendo dar faltas ou presenças para os alunos)
+* Chamada (para frequencia, o professor podendo dar faltas ou presenças para os alunos).
 * Boletim escolar (Aplicação de notas de cada trimestre, apenas o professor podendo editar o Boletim, o aluno apenas podendo visualizar.)
 * O Boletim do aluno, apenas sera gerado no final do ano. Mostrando, frequencia, nota media, anual, e nota final.
 * Historico do aluno (Suspenções, Advertencias) com motivo de cada Suspenção ou Advertencia.
 * Uma Hata onde armazena os atestados dos alunos que faltaram com justificativa para no final do ano não descontar presença.
+* A gestão deve conseguir dar permissão para professores e alunos.
 
 Sistema Geral;
 
@@ -31,16 +28,13 @@ Não-Funcionais;
 * Interace Intuitiva.
 * Usabilidade.
 * Suporte com uma IA que possa ajudar caso haja alguma duvida dentro do aplicativo.
-
+* O login do aluno só sera liberado após algum responsavel da escola o matricular no sistema. Assim gerando um Email; " nomedoaluno@aluno**.*** "
+* O login dos professores também sera com email como de exemplo; "nomedoprofessor@professor**.*** "
+* Fazer o portal do estudante e professores (Na hora de login sera possivel a escolha entre "aluno ou professor").
+* Sistema de salvar automaticamente após qualquer alteração feita no boletim, chamada....
 
 Sistema de "Regras";
 
 * Enviar notificação assim quando uma nota for lançada no sistema.
 * Enviar um Email caso haja uma tentativa de acesso em seu login em outro local. (IP, IMEI...)
-* Os professores terão uma senha unica crida por eles proprios, tendo um metodo de recuperação apenas com um superior (diretor, supervisor, tecnico da area.)
-O login dos professores também sera com email como de exemplo; "nomedoprofessor@professor**.*** "
-* O login do aluno só sera liberado após algum responsavel da escola o matricular no sistema. Assim gerando um Email; " nomedoaluno@aluno**.*** "
-
-
-
-
+* Os professores terão uma senha unica crida por eles proprios, tendo um metodo de recuperação apenas com um superior (diretor, supervisor, tecnico da area, gestor.)
