@@ -22,8 +22,8 @@ Sistema Geral;
 Não-Funcionais;
 
 * Compatibilidade (funcionar em multi-plataforma).
-* Desempenho
-* Segurança de ponta (todos os dados são criptografados)
+* Desempenho ( Te devolve uma resposta em até 1/2 segundos ).
+* Segurança de ponta (todos os dados são criptografados).
 * Capacidade de fazer manutenções.
 * Interace Intuitiva.
 * Usabilidade.
